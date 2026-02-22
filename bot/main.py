@@ -43,7 +43,6 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(
             f"{message.author.mention} Please use `!start` to start the server. "
-            "NOTE: This ONLY WORKS ON WEEKENDS."
         )
 
     await bot.process_commands(message)
