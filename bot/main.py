@@ -31,6 +31,7 @@ if servers:
 @bot.event
 async def on_ready():
         print(f"Bot Is Active Users are now permitted to start the server, {bot.user.name}")
+        print("Created By albertphu07 on github | Powered by NodeX")
   
 
 #Prevent People From Asking to Start Server
